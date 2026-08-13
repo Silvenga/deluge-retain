@@ -367,7 +367,7 @@ checksum = "a4ae5f15dda3c708c0ade84bfee31ccab44a3da4f88015ed22f63732abe300c8"
 
 [[package]]
 name = "deluge-cli"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "assert_cmd",
@@ -392,7 +392,7 @@ dependencies = [
 
 [[package]]
 name = "deluge-rpc-client"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "deluge-rpc-mock",
  "deluge-rpc-models",
@@ -410,7 +410,7 @@ dependencies = [
 
 [[package]]
 name = "deluge-rpc-mock"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "deluge-rpc-client",
  "deluge-rpc-rencode",
@@ -427,7 +427,7 @@ dependencies = [
 
 [[package]]
 name = "deluge-rpc-models"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "deluge-rpc-rencode",
  "serde",
@@ -436,7 +436,7 @@ dependencies = [
 
 [[package]]
 name = "deluge-rpc-rencode"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "base64",
  "serde",
@@ -899,9 +899,9 @@ checksum = "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f"
 
 [[package]]
 name = "rcgen"
-version = "0.14.8"
+version = "0.14.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "57f6d249aad744e274e682777a50283a225a32705394ee6d5fcc01efa25e4055"
+checksum = "091e7a8e7d86e6feb87a27ce8e2cba29d49eff9507afeebefab7eeb2ca667fb4"
 dependencies = [
  "pem",
  "ring",
